@@ -1,0 +1,46 @@
+#container{
+    /* border: 1px dotted green; */
+    margin-left: 70px;
+    width: 600px;
+    height: 500px;
+    float: left;
+}
+
+#cardArea{
+    border: 3px dotted green;
+    border-radius: 15px;
+    width: 600px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnBar{
+    /* border: 1px dotted green; */
+    width: 600px;
+    display: inline-flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+#btnBar img{
+    width: 60px;
+    cursor: pointer;
+}
+
+input{
+    display: block;
+    font: 10px Tahoma;
+    width: 65px;
+    margin-top: 8px;
+}
+
+#textContent{
+    /* border: 1px dotted green; */
+    color: rgba(22, 0, 219, 0.788); 
+    font: bold 25px Tahoma;
+    float: left;
+    margin-left: 70px;
+    margin-top: 130px;
+}

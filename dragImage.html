@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Drag Image</title>
+        <script src="new.js"></script>
+        <link rel="stylesheet" href="main.css">
+    </head>
+    <body>
+    <div id="container"> 
+        <h2 style="width: 600px; text-align-last: justify; color: rgb(224, 157, 12);">～請拖曳圖片進來玩～</h2>
+        <div id="cardArea">
+            <img id="image">
+        </div>
+        <hr style="margin: 15px 15px; width: 560px;">
+        <div id="btnBar">
+            <div id="enlarge">
+                <img src="/imgs/enlarge.png">
+                <input type="number" id="enlargeNum" min="1" step="0.1" placeholder="放大倍數">
+            </div>
+            <div id="small">
+                <img src="/imgs/small.png">
+                <input type="number" id="smallNum" max="1" min="0.1" step="0.1" placeholder="縮小倍數">
+            </div>
+            <div id="left">
+                <img src="/imgs/left.png">
+                <input type="number" id="leftNum" min="0.1"  step="0.1" placeholder="左轉度數">
+            </div>
+            <div id="right">
+                <img src="/imgs/right.png">
+                <input type="number" id="rightNum"  step="0.1" placeholder="右轉度數">
+            </div>
+            <div id="delete">
+                <img src="/imgs/delete.png">
+            </div>
+        </div>
+    </div>
+
+    <div id="textContent">圖檔名稱</div>
+    <footer style="clear: both;"></footer>
+</body>
+</html> 
+
+
+<!-- 
+    檔案名稱：dragImage_學號或姓名.zip
+    作業說明：請製作一張卡片，拖曳上去的圖檔可縮、可放、左轉、右轉、可刪除。 
+-->
